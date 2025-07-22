@@ -39,3 +39,13 @@ npm run report:api
 
 ### 5. **Generate UI test**
 npm run report:ui
+
+## Viewing Allure Report Locally
+
+Make sure Python is installed and added to the system PATH.  
+
+Run this command in the report folder: python -m http.server 8000
+
+Then open the browser: `http://localhost:8000/index.html` to view the report.
+
+Alternatively, generate a new report by running:  npm run report:api in the IntelliJ terminal mentioned above.
